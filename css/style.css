@@ -20,7 +20,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%; /* Ajusta esto según el tamaño que quieras para la imagen */
+    width: 80%; /* Ajusta esto según el tamaño que quieras para la imagen */
     margin-top: 10%; /* Ajusta esto para cambiar la posición vertical de la imagen */
 }
 
@@ -29,7 +29,7 @@ p {
     color: #666;
 }
 
-input[type="text"] {
+input[type="text"], button {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -39,12 +39,10 @@ input[type="text"] {
 button {
     background-color: #4CAF50;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
 }
 
@@ -82,7 +80,7 @@ button {
 #noticias {
     position: fixed;
     right: 0;
-    width: 20%; /* Ajusta esto según el tamaño que quieras para la sección de noticias */
+    width: 80%; /* Ajusta esto según el tamaño que quieras para la sección de noticias */
     height: 100vh;
     overflow: auto;
     padding: 20px;
@@ -93,13 +91,20 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%; /* Ajusta esto según el tamaño que quieras para la imagen */
+    width: 80%; /* Ajusta esto según el tamaño que quieras para la imagen */
 }
 
 /* Aquí está la nueva sección de CSS para mover la sección de búsqueda y resultados más arriba */
 #busqueda {
     position: absolute;
     top: 20%; /* Ajusta esto para cambiar la posición vertical */
-    width: 100%;
+    width: 80%;
     text-align: center;
+}
+
+/* Media queries para pantallas de tamaño pequeño */
+@media (max-width: 600px) {
+    #imagen-central, #noticias, img, #busqueda {
+        width: 100%;
+    }
 }
