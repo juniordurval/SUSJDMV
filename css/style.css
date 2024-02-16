@@ -2,8 +2,8 @@ body {
     background-color: #87CEFA; /* Color de fondo celeste */
     font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
     height: 100vh;
     margin: 0;
@@ -104,7 +104,14 @@ img {
 
 /* Media queries para pantallas de tamaño pequeño */
 @media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
     #imagen-central, #noticias, img, #busqueda {
+        width: 100%;
+    }
+    #imagenes-en-bucle, #noticias {
+        position: relative;
         width: 100%;
     }
 }
