@@ -1,0 +1,105 @@
+body {
+    background-color: #87CEFA; /* Color de fondo celeste */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    background-color: #87CEFA; /* Color de fondo celeste */
+}
+
+#imagen-central {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%; /* Ajusta esto según el tamaño que quieras para la imagen */
+    margin-top: 10%; /* Ajusta esto para cambiar la posición vertical de la imagen */
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#redes-sociales img {
+    width: 30px;
+    height: 30px;
+}
+
+#imagenes-en-bucle {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px; /* Ajusta esto según el tamaño que quieras para las imágenes */
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#imagenes-en-bucle img {
+    width: 100%;
+}
+
+#noticias {
+    position: fixed;
+    right: 0;
+    width: 20%; /* Ajusta esto según el tamaño que quieras para la sección de noticias */
+    height: 100vh;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%; /* Ajusta esto según el tamaño que quieras para la imagen */
+}
+
+/* Aquí está la nueva sección de CSS para mover la sección de búsqueda y resultados más arriba */
+#busqueda {
+    position: absolute;
+    top: 20%; /* Ajusta esto para cambiar la posición vertical */
+    width: 100%;
+    text-align: center;
+}
