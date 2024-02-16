@@ -1,76 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Página Web</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
-    <script src="js/script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <script src="js/script.js"></script>
 </head>
 <body>
+  <header>
     <h1>Bienvenido a mi página web</h1>
-    <div id="busqueda">
+  </header>
+
+  <div id="contenido-principal">
+    <section id="busqueda-container">
+      <section id="busqueda">
         <p>Por favor, escoja una opción de búsqueda:</p>
-        
         <select id="opciones">
-            <option value="cardiologia">Cardiología</option>
-            <option value="neurologia">Neurología</option>
-            <option value="pediatria">Pediatría</option>
-            <option value="general">General</option>
-            <!-- Añade más especialidades aquí -->
+          <option value="cardiologia">Cardiología</option>
+          <option value="neurologia">Neurología</option>
+          <option value="pediatria">Pediatría</option>
+          <option value="general">General</option>
         </select>
         <button onclick="mostrarOpcion()">Buscar</button>
         <div id="resultado"></div>
-    </div>
+      </section>
+    </section>
 
-    <div id="redes-sociales">
-        <a href="https://www.facebook.com" target="_blank">
-            <img src="logos/facebook.jpg" alt="Facebook" width="30" height="30">
-        </a>
-        
-        <a href="https://www.instagram.com" target="_blank">
-            <img src="logos/instagram.jpg" alt="Instagram" width="30" height="30">
-        </a>
-        <!-- Añade más enlaces a redes sociales aquí -->
-    </div>
+ <!--
 
-    <div id="imagenes-en-bucle">
-        <!-- Aquí van tus imágenes -->
-        <img src="imagenes/logosus.jpg" alt="Imagen 1">
-        <img src="imagenes/a.JPG" alt="Imagen 2">
-        <img src="imagenes/B.JPG" alt="Imagen 2">
-        <!-- Añade más imágenes aquí -->
-    </div>
+   <section id="imagenes-en-bucle">
+      <img src="imagenes/logosus.jpg" alt="Imagen 1">
+      <img src="imagenes/a.JPG" alt="Imagen 2">
+      <img src="imagenes/B.JPG" alt="Imagen 2">
+    </section>
+ -->
+    <section id="noticias">
+      <h2>Noticias</h2>
+      <ul>
+        <li><a href="ruta/a/tu/noticia1.html">Noticia 1</a></li>
+        <li><a href="ruta/a/tu/noticia2.html">Noticia 2</a></li>
+        <li><a href="ruta/a/tu/noticia3.html">Noticia 3</a></li>
+        <li><a href="ruta/a/tu/noticia20.html">Noticia 20</a></li>
+      </ul>
+    </section>
+  </div>
 
-    <div id="noticias">
-        <h2>Noticias</h2>
-        <ul>
-            <li><a href="ruta/a/tu/noticia1.html">Noticia 1</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 2</a></li>
-            <li><a href="ruta/a/tu/noticia3.html">Noticia 3</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 4</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 5</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 6</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 7</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 8</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 9</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 10</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 11</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 12</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 13</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 14</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 16</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 17</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 18</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 19</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 20</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 21</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 22</a></li>
-            <li><a href="ruta/a/tu/noticia2.html">Noticia 23</a></li>
-
-            <!-- Añade más noticias aquí -->
-            <!-- ... -->
-            <li><a href="ruta/a/tu/noticia20.html">Noticia 20</a></li>
-        </ul>
-    </div>
+  <footer id="redes-sociales">
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="logos/facebook.jpg" alt="Facebook" width="30" height="30">
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="logos/instagram.jpg" alt="Instagram" width="30" height="30">
+    </a>
+  </footer>
 </body>
 </html>
