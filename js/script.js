@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultado.innerHTML = `
             <table>
                 <tr>
-                    <th>Centro de Salud</th>
+                    <th><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
                     <th>Atención</th>
                 </tr>
                 <tr>
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultado.innerHTML = `
             <table>
                 <tr>
-                    <th>Centro de Salud</th>
+                    <th><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
                     <th>Atención</th>
                 </tr>
                 <tr>
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultado.innerHTML = `
             <table>
                 <tr>
-                    <th>Centro de Salud</th>
+                    <th><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
                     <th>Atención</th>
                 </tr>
                 <tr>
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultado.innerHTML = `
             <table>
                 <tr>
-                    <th>Centro de Salud</th>
+                    <th><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
                     <th>Atención</th>
                 </tr>
                 <tr>
@@ -115,3 +115,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
       }
     }
 });
+
