@@ -8,14 +8,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
             <table>
                 <tr>
                     <th class="columna1"><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <th class="columna2">Atención</th>
                 </tr>
                 <tr>
                     <td class="columna1">Médico Cardiología 1</td>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <td class="columna2">8am a 4pm</td>
                 </tr>
                 <tr>
                     <td class="columna1">Médico Cardiología 2</td>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <td class="columna2">1pm a 7pm</td>
                 </tr>
             </table>`;
@@ -25,14 +28,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
             <table>
                 <tr>
                     <th class="columna1"><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <th class="columna2">Atención</th>
                 </tr>
                 <tr>
                     <td class="columna1">Médico Neurología 1</td>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <td class="columna2">9am a 5pm</td>
                 </tr>
                 <tr>
                     <td class="columna1">Médico Neurología 2</td>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <td class="columna2">2pm a 8pm</td>
                 </tr>
             </table>`;
@@ -42,14 +48,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
             <table>
                 <tr>
                     <th class="columna1"><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <th class="columna2">Atención</th>
                 </tr>
                 <tr>
                     <td class="columna1">Médico Pediatría 1</td>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <td class="columna2">8am a 4pm</td>
                 </tr>
                 <tr>
                     <td class="columna1">Médico Pediatría 2</td>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <td class="columna2">1pm a 7pm</td>
                 </tr>
             </table>`;
@@ -59,14 +68,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
             <table>
                 <tr>
                     <th class="columna1"><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <th class="columna2">Atención</th>
                 </tr>
                 <tr>
                     <td class="columna1">Médico General 1</td>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <td class="columna2">8am a 4pm</td>
                 </tr>
                 <tr>
                     <td class="columna1">Médico General 2</td>
+                    <th><span>&nbsp;&nbsp;&nbsp;</span></th>
                     <td class="columna2">1pm a 7pm</td>
                 </tr>
             </table>`;
