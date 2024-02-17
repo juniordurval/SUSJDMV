@@ -10,6 +10,8 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column; 
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -20,7 +22,6 @@ header {
 h1 {
     margin: 0;
 }
-
 
 #busqueda-container {
     width: 80%;
@@ -46,7 +47,6 @@ h1 {
     border: 1px solid #ddd;
 }
 
-
 button {
     background-color: #4CAF50;
     color: white;
@@ -59,7 +59,6 @@ button {
     border-radius: 5px;
 }
 
-
 #imagenes-en-bucle {
     position: fixed;
     left: 0;
@@ -71,7 +70,6 @@ button {
     flex-direction: column;
     margin-bottom: 20px;
 }
-
 
 #imagenes-en-bucle img {
     width: 100%;
@@ -105,7 +103,6 @@ button {
 #redes-sociales a {
     margin: 0 10px;
 }
-
 
 .modal {
   display: none; /* El modal está oculto por defecto */
@@ -143,6 +140,21 @@ button {
   cursor: pointer;
 }
 
+/* Ajustes para la tabla */
+table {
+    border-collapse: collapse; /* Elimina las líneas de la tabla */
+}
+
+.columna1 {
+    width: 60%; /* Ajusta este valor según tus necesidades */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.columna2 {
+    width: 40%; /* Ajusta este valor según tus necesidades */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
 /* Media queries para pantallas pequeñas */
 @media (max-width: 600px) {
     body {
@@ -169,3 +181,4 @@ button {
       width: 800px;
     }
 }
+
