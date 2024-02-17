@@ -114,6 +114,43 @@ button {
     margin: 0 10px;
 }
 
+/* Estilos para el modal */
+.modal {
+  display: none; /* El modal está oculto por defecto */
+  position: fixed; /* Posición fija */
+  z-index: 1; /* Situado encima de todo */
+  padding-top: 100px; /* Ubicación del modal */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Altura completa */
+  overflow: auto; /* Habilitar scroll si es necesario */
+  background-color: rgb(0,0,0); /* Color de fondo */
+  background-color: rgba(0,0,0,0.4); /* Color de fondo con opacidad */
+}
+
+.modal-contenido {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.cerrar {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* Media queries para pantallas pequeñas */
 @media (max-width: 600px) {
     body {
