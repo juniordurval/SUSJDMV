@@ -75,7 +75,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultado.innerHTML = 'Por favor, selecciona una especialidad.';
         }
     }
-    document.getElementById('opciones').addEventListener('change', mostrarOpcion);
+    
+    // Aquí es donde vinculamos el botón "Buscar" con la función mostrarOpcion()
+    document.getElementById('buscar').addEventListener('click', mostrarOpcion);
     
     function validarEntrada() {
         var opcion = document.getElementById('opciones').value;
