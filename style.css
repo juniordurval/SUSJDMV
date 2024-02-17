@@ -1,0 +1,201 @@
+/* Restablecimiento de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales del cuerpo */
+  body {
+    background-color: #87CEFA; /* Color de fondo celeste */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Modificado para mejor adaptabilidad */
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Estilos para la sección de búsqueda */
+  #busqueda-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  #busqueda {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #opciones {
+    margin-bottom: 10px;
+  }
+  
+  #resultado {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para la sección de imágenes en bucle */
+  #imagenes-en-bucle {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px; /* Ajusta esto según el tamaño que quieras para las imágenes */
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Añade un margen inferior */
+  }
+  
+  /* Estilos para las imágenes en bucle */
+  #imagenes-en-bucle img {
+    width: 100%;
+    max-width: 100px; /* Ajusta este valor según el tamaño deseado para los logos */
+  }
+  
+  /* Estilos para la sección de noticias */
+  #noticias {
+    position: fixed;
+    right: 0;
+    width: 80%; /* Ajusta esto según el tamaño que quieras para la sección de noticias */
+    height: 100vh;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px; /* Añade un margen derecho a la sección de noticias */
+  }
+  
+  /* Estilos para las imágenes */
+  #noticias img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 300px; /* Ajusta este valor según el tamaño deseado para las imágenes de las noticias */
+  }
+  
+  /* Estilos para la sección de redes sociales */
+  #redes-sociales {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #redes-sociales a {
+    margin: 0 10px;
+  }
+  
+  /* Media queries para pantallas pequeñas */
+  @media (max-width: 600px) {
+    body {
+      flex-direction: column; /* Cambiamos la dirección del flex para móviles */
+    }
+    #imagenes-en-bucle, #noticias {
+      position: relative; /* Cambiamos la posición a relative en móviles */
+      width: 100%; /* Ajustamos el ancho a 100% en móviles */
+    }
+    #busqueda-container {
+      width: 100%;
+    }
+    #imagenes-en-bucle {
+      width: 50%; /* Ajusta el ancho a un valor adecuado para móviles */
+    }
+  }
+  
+  /* Media queries para pantallas grandes */
+@media (min-width: 1200px) {
+
+    /* Estilos para la sección de búsqueda */
+  
+    #busqueda {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+  }
+  #opciones {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para los botones */
+  
+  button {
+    width: 100%;
+  }
+  
+  /* Estilos para la sección de noticias */
+  
+  #noticias {
+    width: 600px; /* Ajusta esto según el tamaño que quieras para la sección de noticias */
+  }
+  
+  /* Estilos para las imágenes */
+  
+  #noticias img {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la sección de redes sociales */
+  
+  #redes-sociales {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #redes-sociales a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Media queries para pantallas pequeñas */
+  
+  @media (max-width: 600px) {
+    #noticias {
+      width: 100%;
+    }
+  }
+  
+  /* Media queries para pantallas grandes */
+  
+  @media (min-width: 1200px) {
+    #imagenes-en-bucle {
+      width: 400px;
+    }
+    #noticias {
+      width: 800px;
+    }
+  }
+  
