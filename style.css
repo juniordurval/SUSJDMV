@@ -1,20 +1,15 @@
-/* Restablecimiento de estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales del cuerpo */
 body {
-    background-color: #87CEFA; /* Color de fondo celeste */
+    background-color: #87CEFA; 
     font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
-    flex-direction: column; /* Modificado para mejor adaptabilidad */
-}
-
-/* Estilos para el encabezado */
+    flex-direction: column; 
 header {
     background-color: #333;
     color: #fff;
@@ -26,7 +21,7 @@ h1 {
     margin: 0;
 }
 
-/* Estilos para la sección de búsqueda */
+
 #busqueda-container {
     width: 80%;
     margin: 0 auto;
@@ -51,7 +46,7 @@ h1 {
     border: 1px solid #ddd;
 }
 
-/* Estilos para los botones */
+
 button {
     background-color: #4CAF50;
     color: white;
@@ -64,46 +59,43 @@ button {
     border-radius: 5px;
 }
 
-/* Estilos para la sección de imágenes en bucle */
+
 #imagenes-en-bucle {
     position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
-    width: 300px; /* Ajusta esto según el tamaño que quieras para las imágenes */
+    width: 300px; 
     overflow: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px; /* Añade un margen inferior */
+    margin-bottom: 20px;
 }
 
-/* Estilos para las imágenes en bucle */
+
 #imagenes-en-bucle img {
     width: 100%;
-    max-width: 100px; /* Ajusta este valor según el tamaño deseado para los logos */
+    max-width: 100px; 
 }
 
-/* Estilos para la sección de noticias */
 #noticias {
     position: fixed;
     right: 0;
-    width: 80%; /* Ajusta esto según el tamaño que quieras para la sección de noticias */
+    width: 80%; 
     height: 100vh;
     overflow: auto;
     padding: 20px;
     box-sizing: border-box;
-    margin-right: 20px; /* Añade un margen derecho a la sección de noticias */
+    margin-right: 20px; 
 }
 
-/* Estilos para las imágenes */
 #noticias img {
     display: block;
     margin: 0 auto;
     width: 80%;
-    max-width: 300px; /* Ajusta este valor según el tamaño deseado para las imágenes de las noticias */
+    max-width: 300px; 
 }
 
-/* Estilos para la sección de redes sociales */
 #redes-sociales {
     background-color: #333;
     text-align: center;
@@ -114,7 +106,7 @@ button {
     margin: 0 10px;
 }
 
-/* Estilos para el modal */
+
 .modal {
   display: none; /* El modal está oculto por defecto */
   position: fixed; /* Posición fija */
