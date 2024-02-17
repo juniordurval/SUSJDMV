@@ -7,16 +7,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultado.innerHTML = `
             <table>
                 <tr>
-                    <th><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
-                    <th>Atención</th>
+                    <th class="columna1"><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
+                    <th class="columna2">Atención</th>
                 </tr>
                 <tr>
-                    <td>Médico Cardiología 1</td>
-                    <td>8am a 4pm</td>
+                    <td class="columna1">Médico Cardiología 1</td>
+                    <td class="columna2">8am a 4pm</td>
                 </tr>
                 <tr>
-                    <td>Médico Cardiología 2</td>
-                    <td>1pm a 7pm</td>
+                    <td class="columna1">Médico Cardiología 2</td>
+                    <td class="columna2">1pm a 7pm</td>
                 </tr>
             </table>`;
             break;
@@ -24,16 +24,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultado.innerHTML = `
             <table>
                 <tr>
-                    <th><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
-                    <th>Atención</th>
+                    <th class="columna1"><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
+                    <th class="columna2">Atención</th>
                 </tr>
                 <tr>
-                    <td>Médico Neurología 1</td>
-                    <td>9am a 5pm</td>
+                    <td class="columna1">Médico Neurología 1</td>
+                    <td class="columna2">9am a 5pm</td>
                 </tr>
                 <tr>
-                    <td>Médico Neurología 2</td>
-                    <td>2pm a 8pm</td>
+                    <td class="columna1">Médico Neurología 2</td>
+                    <td class="columna2">2pm a 8pm</td>
                 </tr>
             </table>`;
             break;
@@ -41,16 +41,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultado.innerHTML = `
             <table>
                 <tr>
-                    <th><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
-                    <th>Atención</th>
+                    <th class="columna1"><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
+                    <th class="columna2">Atención</th>
                 </tr>
                 <tr>
-                    <td>Médico Pediatría 1</td>
-                    <td>8am a 4pm</td>
+                    <td class="columna1">Médico Pediatría 1</td>
+                    <td class="columna2">8am a 4pm</td>
                 </tr>
                 <tr>
-                    <td>Médico Pediatría 2</td>
-                    <td>1pm a 7pm</td>
+                    <td class="columna1">Médico Pediatría 2</td>
+                    <td class="columna2">1pm a 7pm</td>
                 </tr>
             </table>`;
             break;
@@ -58,16 +58,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultado.innerHTML = `
             <table>
                 <tr>
-                    <th><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
-                    <th>Atención</th>
+                    <th class="columna1"><a href="URLGOOGLEMAPS" target="_blank">Centro de Salud</a></th>
+                    <th class="columna2">Atención</th>
                 </tr>
                 <tr>
-                    <td>Médico General 1</td>
-                    <td>8am a 4pm</td>
+                    <td class="columna1">Médico General 1</td>
+                    <td class="columna2">8am a 4pm</td>
                 </tr>
                 <tr>
-                    <td>Médico General 2</td>
-                    <td>1pm a 7pm</td>
+                    <td class="columna1">Médico General 2</td>
+                    <td class="columna2">1pm a 7pm</td>
                 </tr>
             </table>`;
             break;
@@ -117,4 +117,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
       }
     }
 });
-
